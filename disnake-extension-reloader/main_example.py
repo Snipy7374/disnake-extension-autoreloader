@@ -14,7 +14,7 @@ class MyBot(commands.Bot):
 bot = MyBot()
 
 async def main() -> None:
-    asyncio.create_task(bot.start("OTc1MzM4NTUwMjg1NDM5MDE2.GQUc6M.t1vbWziR9m4otUgJNO7ZfQt5U4UWlsIH6f5pnU"))
+    asyncio.create_task(bot.start("LMAO")) # btw i've resetted the token
 
     changes = ExtensionLoader(paths="./simple_cog.py", project_path="./", ignore_paths=None, bot=bot, extension_loader_debug=True)
     print(changes.files)
